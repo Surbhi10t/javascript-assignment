@@ -13,10 +13,10 @@
 // let interval = setInterval(()=>{
 //         console.log(n--);
 //         if (n<0) {
-//             document.getElementById("stopint").addEventListener("click",function () {
-//                 console.log("stop button clicked");
-//                 clearInterval(interval);
-//             })
+            // document.getElementById("stopint").addEventListener("click",function () {
+                // console.log("stop button clicked");
+                // clearInterval(interval);
+            // })
         
 //         }
 //     },1000);
@@ -43,16 +43,17 @@
 
 // QUESTION 4:
 
-function wait(n){
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            let message = { 
-                name : "surbhi"
-            };
-            return resolve(message);
+// function wait(n){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let message = { 
+//                 name : "surbhi"
+//             };
+//             return resolve(message);
         
-        }, n);
-    })
-}
-let wait1 = wait(5000);
-console.log(wait1);
+//         }, n);
+//     })
+// }
+// let wait1 = wait(5000);
+// console.log(wait1);
+
