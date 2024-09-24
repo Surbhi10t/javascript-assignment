@@ -1,3 +1,5 @@
+//   QUESTION 8
+
 function randomDelayMessage(message) {
    
     const randomDelay = Math.floor(Math.random() * 4000) + 1000;

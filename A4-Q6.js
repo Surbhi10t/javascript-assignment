@@ -1,3 +1,5 @@
+//  QUESTION 6
+
 function delayedLogSequence(messages) {
     let promise = Promise.resolve();
 

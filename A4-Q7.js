@@ -1,3 +1,5 @@
+//  QUESTION 7
+
 async function delayedLogSequence(messages) {
     for (const [message, delay] of messages) {
         await wait(delay);  
